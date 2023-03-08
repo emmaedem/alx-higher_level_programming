@@ -1,8 +1,9 @@
-#!/usr/bin/python3
-# a function that checks for lowercase character
+#!/usr/bin/pythn3
+for i in range(i+1, 10):
+    for j in range(i+1, 10):
+        if i == 8 and j == 9:
+        print("{:d}{:d}".format(i, j), end="")
+    else:
+        print("{:d}{:d}".format(i, j), end="")
 
-def islower(c):
-   if ord(c) >= 97 and ord(c) <= 122:
-       return True
-   else:
-       return False
+print("\n", end="")
