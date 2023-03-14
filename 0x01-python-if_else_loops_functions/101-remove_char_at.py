@@ -1,11 +1,12 @@
 #!/usr/bin/python3
-# a function that creates a copy of the string,
-# removing the character at the position n
+# a program that prints the ASCII alphabet, in reverse order, 
+# alternating lowercase and uppercase (z in lowercase and Y in uppercase),
+# not followed by a new line.
 
-def remove_char_at(str, n):
+for c in range(122, 96, -1):
 
-    if n >= 0:
+    if c % 2 != 0:
 
-        return str[0:n] + str[n + 1:]
+        c = c - 32
 
-    return str
+    print("{}".format(chr(c)), end='')
