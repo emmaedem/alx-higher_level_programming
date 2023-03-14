@@ -2,7 +2,9 @@
 # a program that prints numbers from 0 to 99.
 
 for i in range(100):
+
     if i < 99:
-        print("{:02}, ".format(i), end="")
+        print("{:02d}, ".format(i), end="")
+
     else:
-        print("{:02}\n".format(i), end="")
+        print("{:02d}\n".format(i), end="")
