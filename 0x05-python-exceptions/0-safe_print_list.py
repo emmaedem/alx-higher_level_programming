@@ -1,14 +1,18 @@
 #!/usr/bin/python3
 
 def safe_print_list(my_list=[], x=0):
-    try:
-        for i in range(x):
+    ret = 0
 
-            print(my_list[i], end=' ')
+    for i in range(x):
 
-    except IndexError:
+        try:
 
-        pass  # just ignore the index error if x is greater than the list length
-    print()  # print a new line after the elements
+            print("{}".format(my_list[i]), end="")
+            ret += 1
 
-    return min(x, len(my_list))  # return the actual number of printed elements
+        except IndexError:
+            break
+
+    print("")
+
+    return (ret)
