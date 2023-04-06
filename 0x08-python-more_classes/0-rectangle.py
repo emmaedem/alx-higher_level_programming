@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" A module that creates a rectangle class"""
+""" Module that creates an empty rectangle class"""
 
 class Rectangle:
 
