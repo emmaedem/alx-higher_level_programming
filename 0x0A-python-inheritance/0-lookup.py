@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""Dfines a object attribute lookup function"""
+"""Defines a object attribute lookup function"""
 
 def lookup(obj):
 
